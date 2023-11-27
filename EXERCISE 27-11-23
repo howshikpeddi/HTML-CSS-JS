@@ -1,0 +1,41 @@
+<p>Use CSS to recreate these Buttons from famous website:</p>
+<p>2a. Uber</p>
+<style>
+.request-button{
+  background-color:black;
+  color :white;
+  border-color:rgb(251, 250, 250);
+  border-width:10px;
+  height:50px;
+  width:140px;
+  cursor:pointer;
+}
+</style>
+<button class="request-button">Request now</button>
+<p>2b. Amazon</p>
+<style>
+.cart-button{
+  background-color:rgb(255, 216, 20);
+border-radius:50px;
+border:-100px;
+height:50px;
+width:150px;
+border-width:10px;
+border-width:rectangle;
+border-color:white;
+cursor:pointer;
+}
+</style>
+<button class="cart-button">Add to cart</button>
+<p>2c. Github</p>
+<style>
+.sigh-button{
+background-color:rgb(46, 164, 79);
+color:white;
+border-color:white;
+border-width:10px;
+width:100px;
+cursor:pointer;
+}
+</style>
+<Button class="sigh-button">Sigh up</Button>
