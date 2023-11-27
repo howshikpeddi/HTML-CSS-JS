@@ -1,0 +1,30 @@
+<style>
+  .stretch-button {
+    background-color: green;
+    color: white;
+    border: none;
+    height: 32px;
+    width: 80px;
+    transition: height 0.15s, width 0.15s;
+  }
+  .stretch-button:hover {
+    height: 40px;
+    width: 90px;
+  }
+  .shadow-button {
+    background-color: green;
+    color: white;
+    border: none;
+    height: 32px;
+    width: 80px;
+    box-shadow: 5px 5px 5px grey;
+  }
+  .shadow-button:active {
+    margin-top: 5px;
+    margin-left: 5px;
+    box-shadow: none;
+  }
+</style>
+
+<button class="stretch-button">Stretch</button>
+<button class="shadow-button">Shadow</button>
