@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube</title>
+    <link rel="stylesheet" href="youtube.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      p {
+        font-family: Roboto, Arial;
+      }
+      .thumbnail {
+        width: 300px;
+        display: block;
+      }
+      .search-bar {
+        font-size: 20px;
+        margin-top: 10px;
+        display: block;
+      }
+      .video-description {
+        margin-top: 10px;
+      }
+      .video-title {
+        margin: 0;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .video-author {
+        color: rgb(96, 96, 96);
+        font-size: 12px;
+        margin-bottom: 3px;
+      }
+      .video-stats {
+        color: rgb(96, 96, 96);
+        font-size: 12px;
+        margin: 0;
+      }
+      .video-preview {
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+      }
+
+      .author-image {
+        display: inline-block;
+        width: 37px;
+        vertical-align: top;
+      }
+
+      .profile-image {
+        width: 100%;
+        border-radius: 40px;
+      }
+      .video-info {
+        display: inline-block;
+        width: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <input class="search-bar" type="text" placeholder="Search" />
+
+    <div class="video-preview">
+      <div><img class="thumbnail" src="thumbnails/thumbnail-1.webp" /></div>
+      <div class="video-description">
+        <div class="author-image">
+          <img class="profile-image" src="author pics/channel-1.jpeg" />
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <p class="video-author">Marques Brownlee</p>
+          <p class="video-stats">3.4M views · 6 months ago</p>
+        </div>
+      </div>
+    </div>
+    <div class="video-preview">
+      <div><img class="thumbnail" src="thumbnails/thumbnail-2.webp" /></div>
+      <div class="video-description">
+        <div class="author-image">
+          <img class="profile-image" src="author pics/channel-2.jpeg" />
+        </div>
+        <div class="video-info">
+          <p class="video-title">Try Not To Laugh Challenge #9</p>
+          <p class="video-author">Markiplier</p>
+          <p class="video-stats">19M views · 4 years ago</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
