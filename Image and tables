@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+</head>
+<body>
+    <img height="230" src="image.jpg" alt="Nature image">
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Studying</th>
+            <th>Fav language</th>
+        </tr>
+        <tr>
+            <td>P.Howshik</td>
+            <td>Btech 1st Year</td>
+            <td>All programming languages</td>
+        </tr>
+    </table>
+</body>
+</html>
